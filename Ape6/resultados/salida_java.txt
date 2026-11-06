@@ -1,0 +1,20 @@
+Primeros 10 numeros (config A): 0.020403, 0.016548, 0.543156, 0.634904, 0.910030, 0.112462, 0.495889, 0.548349, 0.596100, 0.783450
+
+=== Configuraciones del generador (N=10000, k=10, alfa=0.05) ===
+Configuracion                              chi2   p(chi2)         D     p(KS)  Decision
+A: Numerical Recipes (Practica 05)       14.160    0.1167   0.00596    0.8686  chi2: No se rechaza H0 | KS: No se rechaza H0
+
+Frecuencias observadas (config A): [1016, 993, 1049, 940, 949, 1063, 1014, 1016, 984, 976] | esperada: 1000.0
+
+B: glibc (a=1103515245)                   6.642    0.6743   0.00809    0.5281  chi2: No se rechaza H0 | KS: No se rechaza H0
+C: RANDU (a=65539, c=0)                   8.812    0.4548   0.00636    0.8127  chi2: No se rechaza H0 | KS: No se rechaza H0
+D: Degenerado (a=1, c=1)              90000.000    0.0000   0.99999    0.0000  chi2: Se rechaza H0 | KS: Se rechaza H0
+
+=== Config A: efecto del tamano N y tiempos ===
+         N      chi2   p(chi2)         D     p(KS)     t Java (ms)
+      1000     4.120    0.9033   0.02864    0.3800            0.14
+     10000    14.160    0.1167   0.00596    0.8686            1.67
+    100000     9.160    0.4226   0.00207    0.7829            9.87
+   1000000    16.023    0.0664   0.00094    0.3346          103.43
+
+Resultados guardados en: /home/claude/Practica06_Simulacion/resultados

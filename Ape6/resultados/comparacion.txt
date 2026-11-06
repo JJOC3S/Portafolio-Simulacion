@@ -1,0 +1,14 @@
+Secuencia (10000 números): IDÉNTICA en Python y Java
+
+Exp.            Cfg          N       Δchi2    Δp(chi2)          ΔD      Δp(KS)
+configuraciones A        10000    0.00e+00    1.53e-16    0.00e+00    0.00e+00
+configuraciones B        10000    8.88e-16    0.00e+00    0.00e+00    0.00e+00
+configuraciones C        10000    0.00e+00    7.77e-16    0.00e+00    0.00e+00
+configuraciones D        10000    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+tamanos         A         1000    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+tamanos         A        10000    0.00e+00    1.53e-16    0.00e+00    0.00e+00
+tamanos         A       100000    0.00e+00    8.33e-16    0.00e+00    0.00e+00
+tamanos         A      1000000    3.55e-15    1.11e-16    0.00e+00    0.00e+00
+
+Máxima diferencia absoluta entre lenguajes: 3.55e-15
+Mismas decisiones estadísticas: SÍ
